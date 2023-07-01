@@ -1,0 +1,156 @@
+/* Code for Whole Website */
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.flexible-container{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.half-width{
+    width: 50%;
+}
+.one-third-width{
+    width: 30%;
+    margin: 1%;
+}
+.box{
+    padding: 20px;
+    background-color: #ffcccb;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+h1{
+    font-family: Cambria, Georgia, serif; 
+    padding-left: 10px;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+h2{
+    font-family: Cambria, Georgia, serif; 
+    font-size: 40px;
+    margin-bottom: 0;
+}
+h3{
+    color: darkred;
+    font-family: Cambria, Georgia, serif;
+    font-size: 30px;
+}
+p{
+    color: maroon;
+    text-align: justify;
+    line-height: 2;
+    margin-bottom: 25px;
+}
+span{
+    color: red;
+}
+strong{
+    color: goldenrod;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    background-color: maroon;
+    background-image: linear-gradient(red, maroon);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Code for Section One */
+#main-header{
+    border-left: 5px solid;
+    border-color: #FF5959;
+}
+#section-one-image{
+    width: 110%;
+    margin-left: 10px;
+    margin-top: -60px;
+}
+
+/* Code for Section Two */
+#section-two-header h2{
+    text-align: center;
+}
+
+#image-size-1{
+    height: 40%;
+    width: 40%;
+}
+
+#image-size-2{
+    height: 40%;
+    width: 40%;
+}
+
+#image-size-3{
+    height: 40%;
+    width: 40%;
+}
+
+/* Code for Section Three */
+#section-three-image {
+    width: 90%;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
+#section-three{
+    margin-top: -25px;
+    margin-right: 10px;
+}
+
+/* Code for Section Four */
+#section-four{
+    margin-top: 90px;
+    margin-left: 10px;
+}
+
+#section-four-image {
+    width: 90%;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+
+/* Code for Section Five */
+#section-five{
+    margin-top: 0px;
+}
+#section-five-header h2{
+    text-align: center;
+}
+#section-five-image {
+    width: 80%;
+    margin-left: 10px;
+    background-image: url(images/shapes/shape.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+}
+
+/* Code for Footer */
+footer{
+    background-color: #0A0C16;
+    height: 180px;
+    padding-top: 30px;
+}
+
+#footer-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+footer span{
+    color: #F45556;
+}
+
+#footer-tagline{
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
